@@ -1,0 +1,353 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ecc49c87-e5c8-434a-aaa0-1851a8887eeb" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Trucking</ID>
+  <Name>Trucking</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-31802" scrolltop="-4608" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="27570" y="12241" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01cc0000900180380100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Город" left="-21503" top="2608" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="1887" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00005f070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Город" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Отправитель" left="-15292" top="-4148" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3739" height="3298" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e00009b0e0000e20c0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Отправитель" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Получатель" left="-15160" top="7954" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3475" height="3298" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000930d0000e20c0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Получатель" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Виды_груза" left="-8341" top="2784" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="1535" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000ff050000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Виды_груза" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Куб" left="-16103" top="1550" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="5362" height="4004" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000f2140000a40f0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Куб" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="-18803" top="3152" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[Куб-Город]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="5" sourceattachpoint="13" destattachpoint="24" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="-18503" y="3551" />
+                    <point x="-17303" y="3551" />
+                    <point x="-17303" y="3552" />
+                    <point x="-16103" y="3552" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="-11041" top="3152" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[Куб-Виды_груза]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="5" sourceattachpoint="12" destattachpoint="25" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="-8341" y="3551" />
+                    <point x="-9541" y="3551" />
+                    <point x="-9541" y="3552" />
+                    <point x="-10741" y="3552" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="-13822" top="-1349" logicalid="10" controlid="10" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[Куб-Отправитель]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="5" sourceattachpoint="7" destattachpoint="8" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="-13423" y="-850" />
+                    <point x="-13423" y="350" />
+                    <point x="-13422" y="350" />
+                    <point x="-13422" y="1550" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="-13822" top="5254" logicalid="11" controlid="11" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[Куб-Получатель]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="5" sourceattachpoint="4" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="-13423" y="7954" />
+                    <point x="-13423" y="6754" />
+                    <point x="-13422" y="6754" />
+                    <point x="-13422" y="5554" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-31802</DiagramViewPortLeft>
+            <DiagramViewPortTop>-4608</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>75</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Trucking</DataSourceID>
+  <Schema>
+    <xs:schema id="Trucking" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Trucking" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="fb20f045-ad31-473b-9a25-2ba2342387e8">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Город" msprop:design-time-name="1e2575c2-a58a-436c-9869-56931acbc982" msprop:FriendlyName="Город" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="Город">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Код_города" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="Код_города" msprop:DbColumnName="Код_города" msprop:design-time-name="a8b95da6-05af-4831-b36f-8f88ad2e436b" type="xs:int" />
+                  <xs:element name="Город" msprop:FriendlyName="Город" msprop:DbColumnName="Город" msprop:design-time-name="20639e5f-e69d-4ee7-bb7a-e2e6d94c65c7">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Код_области" msprop:FriendlyName="Код_области" msprop:DbColumnName="Код_области" msprop:design-time-name="9c5aec4a-a67e-4874-a0b2-b29838ce4979" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Отправитель" msprop:design-time-name="d3966730-508d-4260-9369-aced6da9290c" msprop:FriendlyName="Отправитель" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="Отправитель">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Код_Отправителя" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="Код_Отправителя" msprop:DbColumnName="Код_Отправителя" msprop:design-time-name="422d9235-1d00-4b7b-b380-8c10f1316d1c" type="xs:int" />
+                  <xs:element name="ФИО" msprop:FriendlyName="ФИО" msprop:DbColumnName="ФИО" msprop:design-time-name="910ccf52-1047-4152-9c45-bd6037dc1221">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Паспорт" msprop:FriendlyName="Паспорт" msprop:DbColumnName="Паспорт" msprop:design-time-name="a5451bea-0b83-4854-a27a-5d73a7e87505">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Телефон" msprop:FriendlyName="Телефон" msprop:DbColumnName="Телефон" msprop:design-time-name="aba95d51-e046-44bc-a29a-b71863a8d2e3">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="11" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Код_области" msprop:FriendlyName="Код_области" msprop:DbColumnName="Код_области" msprop:design-time-name="1326f3d5-0856-45a0-b41e-b59c032a40f6" type="xs:int" />
+                  <xs:element name="Код_города" msprop:FriendlyName="Код_города" msprop:DbColumnName="Код_города" msprop:design-time-name="95db9cf5-c6f5-40b9-9e10-e93ee785615f" type="xs:int" />
+                  <xs:element name="Адрес" msprop:FriendlyName="Адрес" msprop:DbColumnName="Адрес" msprop:design-time-name="591685c5-3c16-4298-8868-8617f8283db9">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Получатель" msprop:design-time-name="ae331d8a-239d-405f-ae11-ca5e7b590549" msprop:FriendlyName="Получатель" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="Получатель">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Код_получателя" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="Код_получателя" msprop:DbColumnName="Код_получателя" msprop:design-time-name="708818a8-560f-4bc9-b7a3-27cd16f2b32d" type="xs:int" />
+                  <xs:element name="ФИО" msprop:FriendlyName="ФИО" msprop:DbColumnName="ФИО" msprop:design-time-name="2734df6d-9ecc-4b0b-8a5b-a0f4660fc4c3">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Паспорт" msprop:FriendlyName="Паспорт" msprop:DbColumnName="Паспорт" msprop:design-time-name="e1f443ed-8c50-4f64-9b31-5eb2e569639d">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="11" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Телефон" msprop:FriendlyName="Телефон" msprop:DbColumnName="Телефон" msprop:design-time-name="a1220920-dd7a-4ae3-853f-7779824949df">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="11" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Код_области" msprop:FriendlyName="Код_области" msprop:DbColumnName="Код_области" msprop:design-time-name="bec01e03-c5bd-4463-8aba-2a2e7ded5998" type="xs:int" />
+                  <xs:element name="Код_города" msprop:FriendlyName="Код_города" msprop:DbColumnName="Код_города" msprop:design-time-name="5f91737f-478a-44a7-93c4-7734daa0fc2b" type="xs:int" />
+                  <xs:element name="Адрес" msprop:FriendlyName="Адрес" msprop:DbColumnName="Адрес" msprop:design-time-name="9565ed3c-e93c-4e43-9e8a-d2e84ee19f31">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Виды_груза" msprop:design-time-name="cc006020-7a8b-4a68-b114-19e756a2ee3b" msprop:FriendlyName="Виды_груза" msprop:TableType="View" msprop:DbSchemaName="dbo" msprop:DbTableName="Виды_груза">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Вид_Груза" msprop:FriendlyName="Вид_Груза" msprop:DbColumnName="Вид_Груза" msprop:design-time-name="da7e18cc-d618-4749-85b3-bdb4a47b73e3">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Код_Груза" msprop:FriendlyName="Код_Груза" msprop:DbColumnName="Код_Груза" msprop:design-time-name="3aa9c05b-8d68-460a-a5de-2b527013ca9a" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Куб" msprop:design-time-name="3f6bb074-af3f-4f7f-a59f-bbdc2a9d4bcc" msprop:FriendlyName="Куб" msprop:TableType="View" msprop:DbSchemaName="dbo" msprop:DbTableName="Куб">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="вес_кг" msprop:FriendlyName="вес_кг" msprop:DbColumnName="вес_кг" msprop:design-time-name="a5648bbc-4091-4b70-b359-88d09a3ec087" type="xs:double" />
+                  <xs:element name="Объем_м3" msprop:FriendlyName="Объем_м3" msprop:DbColumnName="Объем_м3" msprop:design-time-name="1e135ea3-d742-4957-99d3-623b89b7921e" type="xs:double" />
+                  <xs:element name="объявленная_стоимость_руб" msprop:FriendlyName="объявленная_стоимость_руб" msprop:DbColumnName="объявленная_стоимость_руб" msprop:design-time-name="e8d81f1e-f8d2-401f-ab58-ef8be9e518e7" type="xs:double" />
+                  <xs:element name="Расстояние" msprop:FriendlyName="Расстояние" msprop:DbColumnName="Расстояние" msprop:design-time-name="ae5d3b03-5f4e-49da-aff0-3410889e8d37" type="xs:double" />
+                  <xs:element name="Стоимость" msprop:FriendlyName="Стоимость" msprop:DbColumnName="Стоимость" msprop:design-time-name="aec9a5cd-6fc3-4717-9b37-ec566733d0f3" type="xs:double" />
+                  <xs:element name="Код_города" msprop:FriendlyName="Код_города" msprop:DbColumnName="Код_города" msprop:design-time-name="a3542729-8f59-4e88-854e-3b68605cd1bc" type="xs:int" />
+                  <xs:element name="Код_Груза" msprop:FriendlyName="Код_Груза" msprop:DbColumnName="Код_Груза" msprop:design-time-name="2146919d-0678-48e4-a8bc-0570d4afcf11" type="xs:int" />
+                  <xs:element name="Код_Отправителя" msprop:FriendlyName="Код_Отправителя" msprop:DbColumnName="Код_Отправителя" msprop:design-time-name="ca6cb235-90c4-41fd-9abc-e7f698fc3529" type="xs:int" />
+                  <xs:element name="Код_Получателя" msprop:FriendlyName="Код_Получателя" msprop:DbColumnName="Код_Получателя" msprop:design-time-name="1454502d-a92d-420c-9760-15089ad35b9c" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Город" />
+          <xs:field xpath="Код_города" />
+        </xs:unique>
+        <xs:unique name="dbo_Отправитель_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Отправитель" />
+          <xs:field xpath="Код_Отправителя" />
+        </xs:unique>
+        <xs:unique name="dbo_Получатель_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Получатель" />
+          <xs:field xpath="Код_получателя" />
+        </xs:unique>
+        <xs:unique name="dbo_Виды_груза_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Виды_груза" />
+          <xs:field xpath="Код_Груза" />
+        </xs:unique>
+        <xs:keyref name="FK_Получатель_Город" refer="Constraint1" msdata:ConstraintOnly="true">
+          <xs:selector xpath=".//dbo_Получатель" />
+          <xs:field xpath="Код_города" />
+        </xs:keyref>
+        <xs:keyref name="FK_Отправитель_Город" refer="Constraint1" msdata:ConstraintOnly="true">
+          <xs:selector xpath=".//dbo_Отправитель" />
+          <xs:field xpath="Код_города" />
+        </xs:keyref>
+      </xs:element>
+      <xs:annotation>
+        <xs:appinfo>
+          <msdata:Relationship name="Куб-Город" msdata:parent="dbo_Город" msdata:child="dbo_Куб" msdata:parentkey="Код_города" msdata:childkey="Код_города" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="Куб-Виды_груза" msdata:parent="dbo_Виды_груза" msdata:child="dbo_Куб" msdata:parentkey="Код_Груза" msdata:childkey="Код_Груза" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="Куб-Отправитель" msdata:parent="dbo_Отправитель" msdata:child="dbo_Куб" msdata:parentkey="Код_Отправителя" msdata:childkey="Код_Отправителя" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="Куб-Получатель" msdata:parent="dbo_Получатель" msdata:child="dbo_Куб" msdata:parentkey="Код_получателя" msdata:childkey="Код_Получателя" msprop:Description="" msprop:IsLogical="True" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:schema>
+    <Trucking xmlns="" />
+  </Schema>
+</DataSourceView>
